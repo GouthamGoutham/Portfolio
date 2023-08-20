@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Login to the page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="box">
+	<span class="borderLine"></span>
+	<form>
+		<h2>Log in</h2>
+		<div class="inputBox">
+			<div class="alert alert-danger" id="alert_U" role="alert"></div>
+			<input type="text" id="u_name" autocomplete="off">
+			<span class="fa fa-user icon" style="font-size:85%;">Username</span>
+			<i></i>
+		</div>
+		<div class="inputBox">
+			<div class="alert alert-danger" id="alert_P" role="alert"></div>
+			<input type="password" id="pass" autocomplete="off">
+			<span class="fa fa-key icon" id="togglePassword" style="font-size:85%;">Password</span>
+			<i></i>
+		</div>
+		<br>
+		<input type = "button" value="Login" onclick="return fn_validate();">
+		<i></i>
+	</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html> 
