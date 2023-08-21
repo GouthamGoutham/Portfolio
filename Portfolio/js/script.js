@@ -37,6 +37,5 @@ window.onscroll = () => {
 
 let btn_log_out=document.querySelector("#Log_out");
 btn_log_out.addEventListener('click',function(){
-	alert(1);
 	window.location.href="../index.html";
 });
